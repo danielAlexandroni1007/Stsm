@@ -1,0 +1,42 @@
+.App {
+  min-height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.text {
+  text-align: center;
+  font-size: 40px;
+}
+
+#imgPerson {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.container {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  min-height: -webkit-fill-available;
+  background-color: darkgrey;
+  min-width: -webkit-fill-available;
+}
+
+#btn {
+  font-size: 40px;
+}
+.footer {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
